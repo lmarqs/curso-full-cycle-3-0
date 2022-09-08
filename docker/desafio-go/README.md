@@ -21,4 +21,7 @@ Divirta-se
 
 ## Resposta
 [Arquivo Docker](./Dockerfile)
+
 [Imagem no Docker HUB](https://hub.docker.com/r/lmarqs/codeeducation)
+
+![Screenshot](./screenshot.png "Screenshot")
