@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: ./app
-    entrypoint: dockerize -wait tcp://mysql:3306
+    entrypoint: dockerize -wait tcp://mysql:3306 -timeout 180s
     command: npm start
     depends_on:
       - mysql
