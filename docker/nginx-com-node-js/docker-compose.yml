@@ -1,0 +1,29 @@
+version: '3'
+services:
+  app:
+    build:
+      context: ./app
+    entrypoint: dockerize -wait tcp://mysql:3306
+    command: npm start
+    depends_on:
+      - mysql
+    ports:
+      - 3000:3000
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: app
+  mysql:
+    image: mysql:8
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql:/var/lib/mysql
+      - ./mysql/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=app
+
+volumes:
+  mysql:
