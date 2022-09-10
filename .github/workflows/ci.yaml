@@ -1,7 +1,13 @@
 name: ci-workflow
 on:
   pull_request:
-    branches: develop
+    branches:
+      - develop
+    pull_request:
+      types:
+        - opened
+        - synchronize
+        - reopened
 jobs:
   check-application:
     runs-on: ubuntu-latest
