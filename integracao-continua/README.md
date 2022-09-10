@@ -18,3 +18,11 @@ Nesse desafio, iremos consolidar os conhecimentos em relação a criação de um
 [Pull Request](https://github.com/lmarqs/curso-full-cycle-3-0/pull/9)
 
 [Pipeline executado](https://github.com/lmarqs/curso-full-cycle-3-0/runs/8287296151?check_suite_focus=true)
+
+Pipeline com merge bloqueado aguardando execução da pipeline
+
+![image](https://user-images.githubusercontent.com/22457494/189504826-109601b6-25dd-4c07-a00b-b71debbae00b.png)
+
+PR com merge liberado após execução da pipeline
+
+![image](https://user-images.githubusercontent.com/22457494/189504833-91636fd5-05b1-4020-9408-344724798ccb.png)
