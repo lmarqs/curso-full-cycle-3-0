@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm ci
-      - run: npm test
+      - run: npm --prefix integracao-continua ci
+      - run: npm --prefix integracao-continua test
