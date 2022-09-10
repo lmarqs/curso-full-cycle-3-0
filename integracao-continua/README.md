@@ -26,3 +26,12 @@ Pipeline com merge bloqueado aguardando execução da pipeline
 PR com merge liberado após execução da pipeline
 
 ![image](https://user-images.githubusercontent.com/22457494/189504833-91636fd5-05b1-4020-9408-344724798ccb.png)
+
+Aprovação sonar cloud
+
+![image](https://user-images.githubusercontent.com/22457494/189504928-3c97d451-23bb-45de-8586-9d079486a456.png)
+
+Commits verificados
+
+![image](https://user-images.githubusercontent.com/22457494/189505113-2f7d74cf-d5e7-4bff-a8a0-4a7f07357126.png)
+
