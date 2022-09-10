@@ -4,7 +4,7 @@ on:
     branches: develop
 jobs:
   check-application:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -12,3 +12,7 @@ jobs:
           node-version: 16
       - run: npm --prefix integracao-continua ci
       - run: npm --prefix integracao-continua test --coverage
+      - uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
