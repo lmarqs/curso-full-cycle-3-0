@@ -1,6 +1,6 @@
 name: ci-workflow
 on: [push]
-job:
+jobs:
   check-application:
     runs-on: ubuntu-20.04
     steps:
