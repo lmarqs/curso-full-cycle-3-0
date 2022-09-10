@@ -16,3 +16,5 @@ Nesse desafio, iremos consolidar os conhecimentos em relação a criação de um
 
 ## Resposta
 [Pull Request](https://github.com/lmarqs/curso-full-cycle-3-0/pull/9)
+
+[Pipeline executado](https://github.com/lmarqs/curso-full-cycle-3-0/runs/8287296151?check_suite_focus=true)
