@@ -11,9 +11,9 @@ INSERT INTO names (name) VALUES
 ('Ashley Ferraz'),
 ('Camilo Torres'),
 ('Isadora Vila'),
-('Pâmela Prado'),
+('Pamela Prado'),
 ('Adriana Gil'),
 ('Ian Valentin'),
 ('Mia Marinho'),
 ('Allison Torres'),
-('Alma Valência');
+('Alma Valencia');

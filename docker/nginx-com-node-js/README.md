@@ -19,3 +19,5 @@ Suba tudo em um repositório e faça a entrega.
 ## Resposta
 
 [docker-compose.yml](./docker-compose.yml)
+
+![Screenshot](./screenshot.png "Screenshot")
